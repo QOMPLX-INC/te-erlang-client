@@ -1,0 +1,14 @@
+{application, texample,
+ [
+  {description, "texample"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    mdtsdbhttpc
+  ]},
+  {mod, { texample_app, []}},
+  {env, []}
+ ]
+}.
